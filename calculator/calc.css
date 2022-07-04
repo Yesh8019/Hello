@@ -1,0 +1,62 @@
+body{
+    
+    background:url("moon.jpg");
+    background-size:50%;
+}
+.container{
+
+    text-align: center;
+    
+    margin-top: 50px;
+}
+.calculator{
+    display:inline-block;
+}
+
+table{
+    margin: auto;
+}
+td{
+    padding: 5px;
+}
+button{
+    width: 54px;
+    height: 51px;
+    border-radius: 9px;
+    font-size: 25px;
+}
+#btn0{
+    width:30px;
+    border-radius: 0px;
+}
+input{
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+#btnc{
+    margin-left: 15px;
+    background-color: red;
+    border: none;
+    border-radius:3px;
+
+}
+#btnp{
+    background-color:yellow;
+}
+#btnm{
+    background-color:rgba(202, 86, 18, 0.918);
+}
+#btns{
+    background-color:rgb(3, 243, 83);
+}
+#btne{
+    background-color:rgb(5, 181, 235);
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color:cyan;
+    font-size: 36px;
+}
